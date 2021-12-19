@@ -1,1 +1,18 @@
-<p>studentlist works!</p>
+<div class="container"></div>
+<table class="table">
+ <tr>
+    <th>id</th>
+    <th>first name</th>
+    <th>last name</th>
+    <th>dob</th>
+ </tr>
+<tr *ngFor="let items of list">
+    <td>{{items.id}}</td>
+    <td>{{items.first_name}}</td>
+    <td>{{items.last_name}}</td>
+    <td>{{items.date_of_birth}}</td>
+
+</tr>
+</table>
+<button (click)="save()" >submit </button>
+
