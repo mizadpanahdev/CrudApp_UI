@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentlistComponent } from './studentlist/studentlist.component';
 import { UsersModule } from './users/users.module';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentlistComponent,
+    HeaderComponent,
+    FooterComponent,
   
   ],
   imports: [
